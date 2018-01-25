@@ -13,6 +13,9 @@
       return {
         msg: 'Welcome to the Admin Page'
       }
-    }
+    },
+    created: function () {
+        console.log("init")
+    },
   }
 </script>
